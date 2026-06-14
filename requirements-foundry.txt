@@ -1,0 +1,6 @@
+# Optional dependencies for the Azure AI Foundry backend (AGENT_BACKEND=foundry).
+# The core project does NOT need these to run locally.
+-r requirements.txt
+agent-framework
+azure-ai-projects
+azure-identity

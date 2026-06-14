@@ -1,0 +1,29 @@
+# --- Secrets & environment (NEVER commit) ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- Runtime artifacts ---
+telemetry
+outputs/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+pytest-cache-files-*/

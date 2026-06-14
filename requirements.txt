@@ -1,0 +1,13 @@
+# --- Core (required, lightweight, pure-Python) -------------------------------
+pydantic>=2.6,<3.0
+python-dotenv>=1.0
+
+# --- Tests -------------------------------------------------------------------
+pytest>=8.0
+
+# --- Optional: Azure AI Foundry backend (only needed if AGENT_BACKEND=foundry)
+# Install with:  pip install -r requirements-foundry.txt
+# Kept out of the core install so the project runs offline with zero cloud deps.
+#   agent-framework
+#   azure-ai-projects
+#   azure-identity

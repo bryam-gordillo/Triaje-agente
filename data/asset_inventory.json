@@ -1,0 +1,4320 @@
+{
+  "_note": "SYNTHETIC business-asset inventory (Fabric IQ stand-in). Auto-expanded by asset-prefix heuristic; criticality 0.0-1.0.",
+  "assets": [
+    {
+      "asset_id": "HOST-DB-002",
+      "name": "Finance production database",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 1.0,
+      "data_classification": "restricted_financial_pii",
+      "owner": "Finance Platform Team",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-IDP-001",
+      "name": "Identity provider service",
+      "type": "identity_service",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "owner": "IAM Team",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-BKP-002",
+      "name": "Backup orchestration server",
+      "type": "infrastructure",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "owner": "Infrastructure Team",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-MAIL-001",
+      "name": "Mail gateway",
+      "type": "email_gateway",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.65,
+      "data_classification": "internal",
+      "owner": "Messaging Team",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-VPN-001",
+      "name": "Remote access VPN concentrator",
+      "type": "network",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "owner": "Network Team",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FW-001",
+      "name": "Perimeter firewall",
+      "type": "network",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "owner": "Network Team",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WEB-003",
+      "name": "Public marketing web server",
+      "type": "web_server",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.45,
+      "data_classification": "public",
+      "owner": "Marketing IT",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-CLD-009",
+      "name": "Public website asset storage",
+      "type": "cloud_storage",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.2,
+      "data_classification": "public",
+      "owner": "Marketing IT",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-047",
+      "name": "Employee workstation (Accounts Receivable)",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "owner": "Finance Team",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-005",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "low",
+      "criticality_score": 0.25,
+      "data_classification": "internal",
+      "owner": "End User Computing",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-009",
+      "name": "Employee workstation (Marketing)",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "low",
+      "criticality_score": 0.25,
+      "data_classification": "internal",
+      "owner": "End User Computing",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-012",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "low",
+      "criticality_score": 0.25,
+      "data_classification": "internal",
+      "owner": "End User Computing",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-022",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "low",
+      "criticality_score": 0.25,
+      "data_classification": "internal",
+      "owner": "End User Computing",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-031",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "low",
+      "criticality_score": 0.25,
+      "data_classification": "internal",
+      "owner": "End User Computing",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-040",
+      "name": "Design team render workstation",
+      "type": "workstation",
+      "environment": "corporate",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "owner": "Creative Team",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "APP-SRV-003",
+      "name": "Application server",
+      "type": "app_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "APP-SRV-004",
+      "name": "Application server",
+      "type": "app_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "APP-SRV-006",
+      "name": "Application server",
+      "type": "app_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "BUCKET-TRAINING-001",
+      "name": "Cloud storage/resource",
+      "type": "cloud_storage",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "CLOUD-IAM-004",
+      "name": "Identity service",
+      "type": "identity_service",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.9,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "CLOUD-ORG-001",
+      "name": "Cloud control plane",
+      "type": "cloud_platform",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.85,
+      "data_classification": "restricted",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "CLOUD-PROD-001",
+      "name": "Cloud control plane",
+      "type": "cloud_platform",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.85,
+      "data_classification": "restricted",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "CLOUD-SECRETS-001",
+      "name": "Secrets vault",
+      "type": "secrets_store",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 1.0,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "DB-SNAPSHOT-7781",
+      "name": "Database server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "DC-001",
+      "name": "Domain controller",
+      "type": "identity_service",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "DC-002",
+      "name": "Domain controller",
+      "type": "identity_service",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "DEV-SRV-002",
+      "name": "Developer server",
+      "type": "app_server",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "FILE-SRV-003",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-007",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-009",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-011",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-DB-004",
+      "name": "Database server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-FS-002",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-004",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-006",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-011",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-014",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-016",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-018",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-019",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-021",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-024",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-025",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-026",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-027",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-029",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-030",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-032",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-033",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-034",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-035",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-037",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-038",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-041",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-043",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-044",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-046",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-048",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-049",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-050",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-052",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-055",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-056",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-058",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-060",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-061",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-063",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-064",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "IDP-TENANT-001",
+      "name": "Identity service",
+      "type": "identity_service",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.9,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "MAIL-GW-001",
+      "name": "Mail system",
+      "type": "email_gateway",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "MAILBOX-0175",
+      "name": "Mail system",
+      "type": "email_gateway",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "NET-SRV-VLAN",
+      "name": "Network service",
+      "type": "network",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "PRN-004",
+      "name": "Printer",
+      "type": "peripheral",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.15,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "REGISTRY-STAGE-001",
+      "name": "Container registry",
+      "type": "registry",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "REPORT-SRV-002",
+      "name": "Reporting server",
+      "type": "app_server",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.55,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "SG-APP-STAGE-002",
+      "name": "Security group/config",
+      "type": "cloud_config",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.45,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "STAGE-APP-003",
+      "name": "Application server",
+      "type": "app_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "VPN-GW-001",
+      "name": "VPN gateway",
+      "type": "network",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "VPN-GW-OLD",
+      "name": "VPN gateway",
+      "type": "network",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.6,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "WEB-ADMIN-001",
+      "name": "Web portal/admin",
+      "type": "web_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.75,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "WEB-CATALOG-001",
+      "name": "Web server",
+      "type": "web_server",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.5,
+      "data_classification": "public",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "WEB-PORTAL-001",
+      "name": "Web portal/admin",
+      "type": "web_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.75,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "WEB-PORTAL-002",
+      "name": "Web portal/admin",
+      "type": "web_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.75,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "FIN-SRV-001",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-WS-001",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-002",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-003",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-004",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-007",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-008",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-010",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-013",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-015",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-017",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-020",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-023",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-028",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-036",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-039",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-042",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-045",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-051",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-053",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-054",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-057",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-059",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-062",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-065",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-066",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-067",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-068",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-069",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-070",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-071",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-072",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-073",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-074",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-075",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-076",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-077",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-078",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-079",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-002",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-003",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-004",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-005",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-008",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-010",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-012",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-013",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-014",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-015",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-016",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-017",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-018",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-019",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-020",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-021",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-022",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-023",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-024",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-025",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-027",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-028",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-029",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-031",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-032",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-033",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-034",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-035",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-036",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-037",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-038",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-039",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-040",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-041",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-042",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-043",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-044",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-045",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-046",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-048",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-050",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-051",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-052",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-053",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-054",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-055",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-056",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-057",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-058",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-059",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-060",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-061",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-062",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-063",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-064",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-065",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-066",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-068",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-069",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-070",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-072",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-073",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-074",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-075",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-076",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-077",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-APP-078",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-DB-001",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-003",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-005",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-006",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-007",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-008",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-009",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-010",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-011",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-012",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-013",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-014",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-015",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-016",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-017",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-018",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-019",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-020",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-021",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-DB-022",
+      "name": "Database/finance server",
+      "type": "database_server",
+      "environment": "production",
+      "business_criticality": "critical",
+      "criticality_score": 0.95,
+      "data_classification": "restricted",
+      "crown_jewel": true
+    },
+    {
+      "asset_id": "HOST-FS-001",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-003",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-005",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-006",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-007",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-008",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-009",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-010",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-011",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-012",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-013",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-014",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-015",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-016",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-017",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-FS-018",
+      "name": "File server",
+      "type": "file_server",
+      "environment": "production",
+      "business_criticality": "high",
+      "criticality_score": 0.7,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-001",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-002",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-003",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-004",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-005",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-006",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-009",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-010",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-011",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-013",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-016",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-017",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-018",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-019",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-020",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-021",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-022",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-023",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-024",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-025",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-026",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-027",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-028",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-031",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-032",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-033",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-035",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-037",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-038",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-039",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-040",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-041",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-042",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-043",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-044",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-045",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-046",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-049",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-050",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-052",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-053",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-054",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-055",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-056",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-058",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-059",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-060",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-061",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-062",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-063",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-064",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-065",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-066",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-067",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-069",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-071",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-072",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-073",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-074",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-075",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-076",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-077",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-078",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-079",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-LNX-080",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-001",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-002",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-004",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-006",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-008",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-009",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-012",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-013",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-014",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-015",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-016",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-017",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-018",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-019",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-020",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-021",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-022",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-025",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-026",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-027",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-028",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-029",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-030",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-031",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-032",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-033",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-034",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-035",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-036",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-037",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-039",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-040",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-041",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-042",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-043",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-045",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-046",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-047",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-048",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-049",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-050",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-051",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-052",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-053",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-054",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-055",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-056",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-059",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-060",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-061",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-062",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-063",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-064",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-066",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-067",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-068",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-069",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-070",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-071",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-072",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-073",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-074",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-077",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-078",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-079",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-SRV-080",
+      "name": "Unspecified asset",
+      "type": "unknown",
+      "environment": "production",
+      "business_criticality": "medium",
+      "criticality_score": 0.4,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-083",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-086",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-087",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-088",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-089",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-090",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-092",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-093",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-094",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-095",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-096",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-097",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-103",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-104",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-110",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-112",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-113",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-114",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-115",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-119",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-120",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-123",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-124",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-130",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-132",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-137",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-140",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-142",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-145",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-146",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-148",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-149",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-151",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-155",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-156",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-157",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-161",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-165",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-168",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-171",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-174",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-176",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-177",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-178",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-180",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-181",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-185",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-186",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-187",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-188",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-192",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-195",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-196",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-197",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-198",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-200",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-202",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-205",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-206",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-207",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-208",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-209",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-210",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-212",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-218",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-220",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-222",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-223",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-224",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-227",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-232",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-234",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-238",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    },
+    {
+      "asset_id": "HOST-WS-240",
+      "name": "Employee workstation",
+      "type": "workstation",
+      "environment": "production",
+      "business_criticality": "low",
+      "criticality_score": 0.3,
+      "data_classification": "internal",
+      "crown_jewel": false
+    }
+  ]
+}

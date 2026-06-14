@@ -1,0 +1,356 @@
+{
+  "_note": "SYNTHETIC ground truth from category_hint + contained-threat rule. Regenerate with scripts/rebuild_dataset.py.",
+  "labeling_rule": {
+    "malicious_hints": [
+      "account_takeover",
+      "brute_force",
+      "cloud_compromise",
+      "command_and_control",
+      "credential_access",
+      "data_exposure",
+      "data_staging",
+      "defense_evasion",
+      "directory_replication_abuse",
+      "dns_tunneling_attempt",
+      "dormant_account_attempt",
+      "email_exfiltration",
+      "execution",
+      "exfiltration",
+      "exfiltration_attempt",
+      "identity_anomaly",
+      "impact",
+      "incident_correlation",
+      "initial_access",
+      "internal_recon",
+      "lateral_movement",
+      "lateral_movement_attempt",
+      "malware_attempt",
+      "mfa_abuse_attempt",
+      "persistence",
+      "phishing",
+      "phishing_attempt",
+      "privilege_escalation",
+      "ransomware",
+      "unapproved_tool",
+      "web_compromise"
+    ],
+    "contained_markers_force_benign": [
+      "blocked",
+      "quarantin",
+      "denied",
+      "prevented",
+      "sinkhole",
+      "sandbox",
+      "auto-remediated",
+      "contained",
+      "isolation not required"
+    ]
+  },
+  "counts": {
+    "total": 60,
+    "malicious": 15,
+    "benign": 45
+  },
+  "per_alert": [
+    {
+      "alert_id": "ALRT-0001",
+      "expected_verdict": "malicious",
+      "category_hint": "lateral_movement"
+    },
+    {
+      "alert_id": "ALRT-0002",
+      "expected_verdict": "benign",
+      "category_hint": "resource_anomaly"
+    },
+    {
+      "alert_id": "ALRT-0003",
+      "expected_verdict": "benign",
+      "category_hint": "account_management"
+    },
+    {
+      "alert_id": "ALRT-0004",
+      "expected_verdict": "benign",
+      "category_hint": "policy"
+    },
+    {
+      "alert_id": "ALRT-0005",
+      "expected_verdict": "benign",
+      "category_hint": "dns_noise"
+    },
+    {
+      "alert_id": "ALRT-0006",
+      "expected_verdict": "benign",
+      "category_hint": "dlp_blocked"
+    },
+    {
+      "alert_id": "ALRT-0007",
+      "expected_verdict": "benign",
+      "category_hint": "hygiene"
+    },
+    {
+      "alert_id": "ALRT-0008",
+      "expected_verdict": "malicious",
+      "category_hint": "execution"
+    },
+    {
+      "alert_id": "ALRT-0009",
+      "expected_verdict": "benign",
+      "category_hint": "authentication"
+    },
+    {
+      "alert_id": "ALRT-0010",
+      "expected_verdict": "benign",
+      "category_hint": "policy_block"
+    },
+    {
+      "alert_id": "ALRT-0011",
+      "expected_verdict": "benign",
+      "category_hint": "reconnaissance"
+    },
+    {
+      "alert_id": "ALRT-0012",
+      "expected_verdict": "malicious",
+      "category_hint": "initial_access"
+    },
+    {
+      "alert_id": "ALRT-0013",
+      "expected_verdict": "benign",
+      "category_hint": "dlp_blocked"
+    },
+    {
+      "alert_id": "ALRT-0014",
+      "expected_verdict": "benign",
+      "category_hint": "dlp_blocked"
+    },
+    {
+      "alert_id": "ALRT-0015",
+      "expected_verdict": "benign",
+      "category_hint": "authentication"
+    },
+    {
+      "alert_id": "ALRT-0016",
+      "expected_verdict": "benign",
+      "category_hint": "resource_anomaly"
+    },
+    {
+      "alert_id": "ALRT-0017",
+      "expected_verdict": "benign",
+      "category_hint": "dlp_blocked"
+    },
+    {
+      "alert_id": "ALRT-0018",
+      "expected_verdict": "benign",
+      "category_hint": "hygiene"
+    },
+    {
+      "alert_id": "ALRT-0019",
+      "expected_verdict": "benign",
+      "category_hint": "admin_maintenance"
+    },
+    {
+      "alert_id": "ALRT-0020",
+      "expected_verdict": "malicious",
+      "category_hint": "initial_access"
+    },
+    {
+      "alert_id": "ALRT-0021",
+      "expected_verdict": "benign",
+      "category_hint": "hygiene"
+    },
+    {
+      "alert_id": "ALRT-0022",
+      "expected_verdict": "malicious",
+      "category_hint": "credential_access"
+    },
+    {
+      "alert_id": "ALRT-0023",
+      "expected_verdict": "benign",
+      "category_hint": "policy_block"
+    },
+    {
+      "alert_id": "ALRT-0024",
+      "expected_verdict": "malicious",
+      "category_hint": "execution"
+    },
+    {
+      "alert_id": "ALRT-0025",
+      "expected_verdict": "benign",
+      "category_hint": "bruteforce_blocked"
+    },
+    {
+      "alert_id": "ALRT-0026",
+      "expected_verdict": "benign",
+      "category_hint": "cloud_misconfig_noise"
+    },
+    {
+      "alert_id": "ALRT-0027",
+      "expected_verdict": "benign",
+      "category_hint": "reconnaissance"
+    },
+    {
+      "alert_id": "ALRT-0028",
+      "expected_verdict": "malicious",
+      "category_hint": "credential_access"
+    },
+    {
+      "alert_id": "ALRT-0029",
+      "expected_verdict": "benign",
+      "category_hint": "cloud_misconfig_noise"
+    },
+    {
+      "alert_id": "ALRT-0030",
+      "expected_verdict": "benign",
+      "category_hint": "bruteforce_blocked"
+    },
+    {
+      "alert_id": "ALRT-0031",
+      "expected_verdict": "benign",
+      "category_hint": "bruteforce_blocked"
+    },
+    {
+      "alert_id": "ALRT-0032",
+      "expected_verdict": "benign",
+      "category_hint": "pup"
+    },
+    {
+      "alert_id": "ALRT-0033",
+      "expected_verdict": "benign",
+      "category_hint": "resource_anomaly"
+    },
+    {
+      "alert_id": "ALRT-0034",
+      "expected_verdict": "malicious",
+      "category_hint": "initial_access"
+    },
+    {
+      "alert_id": "ALRT-0035",
+      "expected_verdict": "benign",
+      "category_hint": "admin_maintenance"
+    },
+    {
+      "alert_id": "ALRT-0036",
+      "expected_verdict": "benign",
+      "category_hint": "authentication"
+    },
+    {
+      "alert_id": "ALRT-0037",
+      "expected_verdict": "malicious",
+      "category_hint": "execution"
+    },
+    {
+      "alert_id": "ALRT-0038",
+      "expected_verdict": "malicious",
+      "category_hint": "exfiltration"
+    },
+    {
+      "alert_id": "ALRT-0039",
+      "expected_verdict": "benign",
+      "category_hint": "policy_block"
+    },
+    {
+      "alert_id": "ALRT-0040",
+      "expected_verdict": "malicious",
+      "category_hint": "lateral_movement"
+    },
+    {
+      "alert_id": "ALRT-0041",
+      "expected_verdict": "benign",
+      "category_hint": "hygiene"
+    },
+    {
+      "alert_id": "ALRT-0042",
+      "expected_verdict": "benign",
+      "category_hint": "reconnaissance"
+    },
+    {
+      "alert_id": "ALRT-0043",
+      "expected_verdict": "benign",
+      "category_hint": "pup"
+    },
+    {
+      "alert_id": "ALRT-0044",
+      "expected_verdict": "benign",
+      "category_hint": "reconnaissance"
+    },
+    {
+      "alert_id": "ALRT-0045",
+      "expected_verdict": "benign",
+      "category_hint": "policy_block"
+    },
+    {
+      "alert_id": "ALRT-0046",
+      "expected_verdict": "malicious",
+      "category_hint": "exfiltration"
+    },
+    {
+      "alert_id": "ALRT-0047",
+      "expected_verdict": "benign",
+      "category_hint": "hygiene"
+    },
+    {
+      "alert_id": "ALRT-0048",
+      "expected_verdict": "benign",
+      "category_hint": "test"
+    },
+    {
+      "alert_id": "ALRT-0049",
+      "expected_verdict": "benign",
+      "category_hint": "admin_maintenance"
+    },
+    {
+      "alert_id": "ALRT-0050",
+      "expected_verdict": "malicious",
+      "category_hint": "lateral_movement"
+    },
+    {
+      "alert_id": "ALRT-0051",
+      "expected_verdict": "benign",
+      "category_hint": "cloud_misconfig_noise"
+    },
+    {
+      "alert_id": "ALRT-0052",
+      "expected_verdict": "benign",
+      "category_hint": "admin_maintenance"
+    },
+    {
+      "alert_id": "ALRT-0053",
+      "expected_verdict": "benign",
+      "category_hint": "authentication"
+    },
+    {
+      "alert_id": "ALRT-0054",
+      "expected_verdict": "benign",
+      "category_hint": "resource_anomaly"
+    },
+    {
+      "alert_id": "ALRT-0055",
+      "expected_verdict": "malicious",
+      "category_hint": "exfiltration"
+    },
+    {
+      "alert_id": "ALRT-0056",
+      "expected_verdict": "benign",
+      "category_hint": "pup"
+    },
+    {
+      "alert_id": "ALRT-0057",
+      "expected_verdict": "benign",
+      "category_hint": "dlp_blocked"
+    },
+    {
+      "alert_id": "ALRT-0058",
+      "expected_verdict": "benign",
+      "category_hint": "spam_noise"
+    },
+    {
+      "alert_id": "ALRT-0059",
+      "expected_verdict": "malicious",
+      "category_hint": "credential_access"
+    },
+    {
+      "alert_id": "ALRT-0060",
+      "expected_verdict": "benign",
+      "category_hint": "resource_anomaly"
+    }
+  ]
+}
